@@ -1,0 +1,15 @@
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  padding: 15px;
+}
+
+.gallery > img {
+  width: 350px !important;
+  object-fit: contain;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+}
